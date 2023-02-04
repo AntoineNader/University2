@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viepoint" content="width=device-width,initial-scale=1.0">
+ <title> American University </title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com./font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+<nav>
+ <a href="index.html"><img src="images/logo.png"></a>
+ <div class="nav-links" id="navLinks">
+ <i class="fa fa-times" onclick="hideMenu()"></i>
+ <ul>
+ <li><a href="index.html">Home</a></li>
+ <li><a href="about.html">About</a></li>
+ <li><a href="course.html">Course</a></li>
+ <li><a href="blog.html">Blog</a></li>
+ <li><a href="contact.html">Contact</a></li>
+ </ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<h1>Our Courses</h1>
+
+</section>
+
+<section class="course">
+ <h1>Course We Offer</h1>
+ <p>All Engineering branches , Arts and Sciences and Pharmacy.</p>
+  <div class="row">
+  <div class="course-col">
+  <h2>Bachelor degree</h2>
+  <p>You will have the best Bachelor degree that make you one of the best educated students</p>
+  </div>
+<div class="course-col">
+  <h2>Master degree</h2>
+  <p>Our Master degree is the most powerful degree that entitles you to get the best job opportunities</p>
+  </div>
+</section>
+
+<section class="facilities">
+<h1> Our Facilities</h1>
+<p>We offer a comfortable places to our students to enjoy and have fun</p>
+<div class="row">
+<div class="facilities-col">
+ <img src="images/library.png">
+ <h3> World Class Library</h3>
+<p>After a long day of studying sitting in our library is the best solution to relax.</p>
+</div>
+<div class="facilities-col">
+  <img src="images/basketball.png">
+  <h3>Largest Play Ground</h3>
+  <p>Exercising is the best solution to empty negative energy and replace it with positivity and to stimulate the mind.</p>
+</div>
+<div class="facilities-col">
+  <img src="images/cafeteria.png">
+  <h3> Tasty and Healthy Food</h3>
+  <p>Food gives enough energy to the mind to give more mental activity.</p>
+</div>
+</div>
+
+</section>
+
+
+<section class="footer">
+ <h4>About Us</h4>
+<p>Our original branch was in Washington in 1990 and from the first years <br>our university was on the top of all universities.</p>
+<div class="icons">
+ <i class="fa fa-facebook-official"></i>
+ <i class="fa fa-instagram"></i>
+ <i class="fa fa-twitter"></i>
+ <i class="fa fa-linkedin-square"></i>
+</div>
+</section> 
+
+<script>
+
+ var navLinks=document.getElementById("navLinks");
+ function showMenu(){
+   navLinks.style.right= "0";
+}
+ function hideMenu(){
+   navLinks.style.right="-200px";
+}
+</script>
+
+</body>
+</html>

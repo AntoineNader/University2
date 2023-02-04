@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viepoint" content="width=device-width,initial-scale=1.0">
+ <title> American University </title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com./font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+<nav>
+ <a href="index.html"><img src="images/logo.png"></a>
+ <div class="nav-links" id="navLinks">
+ <i class="fa fa-times" onclick="hideMenu()"></i>
+ <ul>
+ <li><a href="index.html">Home</a></li>
+ <li><a href="about.html">About</a></li>
+ <li><a href="course.html">Course</a></li>
+ <li><a href="blog.html">Blog</a></li>
+ <li><a href="contact.html">Contact</a></li>
+ </ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+ <h1>American University</h1>
+ <p>One of the biggest university in USA,we have so many branches in The USA <br>and a lot of majors that your dream job you will study it here.</p>
+ <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+</section>
+
+<section class="course">
+ <h1>Course We Offer</h1>
+ <p>All Engineering branches , Arts and Sciences and Pharmacy.</p>
+  <div class="row">
+  <div class="course-col">
+  <h2>Bachelor degree</h2>
+  <p>You will have the best Bachelor degree that make you one of the best educated students</p>
+  </div>
+<div class="course-col">
+  <h2>Master degree</h2>
+  <p>Our Master degree is the most powerful degree that entitles you to get the best job opportunities</p>
+  </div>
+</section>
+<section class="campus">
+<h1>Our Global Campus</h1>
+<p>We have four branches in the USA</p>
+<div class="row">
+<div class="campus-col">
+ <img src="images/london.png">
+ <div class="layer">
+ <h3>London</h3>
+</div>
+ </div>
+<div class="campus-col">
+ <img src="images/washington.png">
+ <div class="layer">
+ <h3>Washington</h3>
+</div>
+ </div>
+<div class="campus-col">
+ <img src="images/NewYork.png">
+ <div class="layer">
+ <h3>New York</h3>
+</div>
+ </div>
+</div>
+</section>
+<section class="facilities">
+<h1> Our Facilities</h1>
+<p>We offer a comfortable places to our students to enjoy and have fun</p>
+<div class="row">
+<div class="facilities-col">
+ <img src="images/library.png">
+ <h3> World Class Library</h3>
+<p>After a long day of studying sitting in our library is the best solution to relax.</p>
+</div>
+<div class="facilities-col">
+  <img src="images/basketball.png">
+  <h3>Largest Play Ground</h3>
+  <p>Exercising is the best solution to empty negative energy and replace it with positivity and to stimulate the mind.</p>
+</div>
+<div class="facilities-col">
+  <img src="images/cafeteria.png">
+  <h3> Tasty and Healthy Food</h3>
+  <p>Food gives enough energy to the mind to give more mental activity.</p>
+</div>
+</div>
+
+</section>
+<section class="testimonials">
+ <h1>What Our Student Says</h1>
+ <div class="row">
+ <div class="testimonial-col">
+ <img src="images/user1.jpg">
+<div>
+  <p>In this university i feel like i am at home because of all the familiar staff</p>
+  <h3>Christina Jones</h3>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+</div>
+</div>
+<div class="testimonial-col">
+ <img src="images/user2.jpg">
+ <div>
+  <p>Studying in this university is my dream and i thank God that my dream come true</p>
+  <h3>James William</h3>
+   <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+</div>
+</div>
+</div>
+</section>
+<section class="cta">
+ <h1>Enroll for our various online courses<br>Anywhere from the world</h1>
+<a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<section class="footer">
+ <h4>About Us</h4>
+<p>Our original branch was in Washington in 1990 and from the first years <br>our university was on the top of all universities.</p>
+<div class="icons">
+ <i class="fa fa-facebook-official"></i>
+ <i class="fa fa-instagram"></i>
+ <i class="fa fa-twitter"></i>
+ <i class="fa fa-linkedin-square"></i>
+</div>
+</section> 
+
+<script>
+
+ var navLinks=document.getElementById("navLinks");
+ function showMenu(){
+   navLinks.style.right= "0";
+}
+ function hideMenu(){
+   navLinks.style.right="-200px";
+}
+</script>
+
+</body>
+</html>
